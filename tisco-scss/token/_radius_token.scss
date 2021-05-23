@@ -1,0 +1,11 @@
+$radius_token: deep-map-merge(
+	(
+		'radius': (
+            'small'     :   6px,
+            'medium'    :   8px,
+            'large'     :   16px
+        )
+    ),
+    $token,
+    true
+);        

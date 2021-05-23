@@ -1,0 +1,25 @@
+// ---------------------------------------------------------
+// token
+// Search for any value contained within nested maps, by using
+// dot notation as the key argument
+//
+// Required arguments:
+// `$key` String
+//
+// Example of use:
+// token('border.radius.xs')
+//
+// Dependencies:
+// deep-map-check, deep-map-get, str-explode
+//
+// @return Anything
+// ---------------------------------------------------------
+@function token ($key, $map: $token_name) {
+  $keys: str-explode($key, '.');
+
+  @if not deep-map-check($map, $keys...) {
+    @error 'The argument $map: `#{$map}` doesn\'t has some of the $keys: `#{$keys}`!';
+  }
+
+  @return deep-map-get($map, $keys...);
+}

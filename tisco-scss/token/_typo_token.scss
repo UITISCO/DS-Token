@@ -1,0 +1,98 @@
+$font-token: deep-map-merge(
+	(
+		'fontFamilies': (
+			'font-tisco-ad': TISCO AD,
+			'font-tisco-text': TISCO Text
+		),
+		'fontWeights': (
+			'font-tisco-Bold': Bold,
+			'font-tisco-Regular': Regular
+		),
+		'lineHeight': (
+			'calculator': 1.5
+		),
+		'fontSizes': (
+			'helperFooterNote': 11px,	
+			'label': 13px,	
+			'body': 16px,	
+			'h4': 18px,	
+			'h3': 20px,
+			'h2': 24px,
+			'h1': 30px,
+			'displayTitleLarge': 40px,	
+			'displayTitleAdvert': 48px,	
+			'displayTitle2XLarge': 52px
+		),	
+	), 
+	$token,
+	true
+);
+
+// $typo_token: deep-map-merge(
+// 	(
+// 		'Heading': (
+// 			'H1': (
+// 				'fontSize': get('fontSizes.30',$font_token)
+// 				'lineHeight': get('lineHeights.45',$font_token),
+// 			),
+// 			'H2': (
+// 				'fontSize': get('fontSizes.24',$font_token)
+// 				'lineHeight': get('lineHeights.36',$font_token),
+// 			),
+// 			'H6': (
+// 				'fontSize': get('fontSizes.13',$font_token)
+// 				'lineHeight': get('lineHeights.20',$font_token),
+// 			),
+// 			'H4': (
+// 				'fontSize': get('fontSizes.18',$font_token)
+// 				'lineHeight': get('lineHeights.27',$font_token),
+// 			),
+// 			'H3': (
+// 				'fontSize': get('fontSizes.20',$font_token)
+// 				'lineHeight': get('lineHeights.32',$font_token),
+// 			),
+// 			'H5': (
+// 				'fontSize': get('fontSizes.16',$font_token)
+// 				'lineHeight': get('lineHeights.24',$font_token),
+// 			)
+// 		),
+// 		'Body': (
+// 			'fontSize': get('fontSizes.16',$font_token)
+// 			'lineHeight': get('lineHeights.24',$font_token),
+// 		),
+// 		'Label': (
+// 			'Helper-Optional': (
+// 				'fontSize': get('fontSizes.11',$font_token)
+// 				'lineHeight': get('lineHeights.17',$font_token),
+// 			),
+// 			'Default-Regular': (
+// 				'fontSize': get('fontSizes.13',$font_token)
+// 				'lineHeight': get('lineHeights.20',$font_token),
+// 			),
+// 			'Action-CTA-Regular-16': (
+// 				'fontSize': get('fontSizes.16',$font_token)
+// 				'lineHeight': get('lineHeights.24',$font_token),
+// 			)
+// 		),
+// 		'Footnote': (
+// 			'fontSize': get('fontSizes.11',$font_token)
+// 			'lineHeight': get('lineHeights.17',$font_token),
+// 		),
+// 		'Adver or Display Title': (
+// 			'Advert': (
+// 				'fontSize': get('fontSizes.48',$font_token)
+// 				'lineHeight': get('lineHeights.72',$font_token),
+// 			),
+// 			'X-Large': (
+// 				'fontSize': get('fontSizes.40',$font_token)
+// 				'lineHeight': get('lineHeights.60',$font_token),
+// 			),
+// 			'2X-Large': (
+// 				'fontSize': get('fontSizes.52',$font_token)
+// 				'lineHeight': get('lineHeights.78',$font_token),
+// 			)
+// 		)
+// 	),
+// 	$token,
+// 	true
+// );

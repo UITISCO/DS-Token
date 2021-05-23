@@ -1,0 +1,104 @@
+{
+    "colors": {
+        "Base": {
+            "White": {
+                "value": "#ffffff",
+                "description": "Base white"
+            },
+            "Black": {
+                "value": "#181818",
+                "description": "Base black"
+            },
+            "Text": {
+                "value": "#2d2d2d",
+                "description": "Base text color"
+            },
+            "Primary-brand": {
+                "value": "#1369b0",
+                "description": "Base primary"
+            },
+            "Secondary-brand": {
+                "value": "#68b1ee",
+                "description": "Base secondary"
+            },
+            "Muted-Background": {
+                "value": "#f4f4f4",
+                "description": "Base muted background"
+            },
+            "Mute-Color": {
+                "value": "#dcdcdc",
+                "description": "Base mute color"
+            },
+            "Grey-Color": {
+                "value": "#ababab",
+                "description": "Base grey color"
+            }
+        },
+        "Action": {
+            "Primary": {
+                "value": "#1369b0",
+                "description": "Action background primary"
+            },
+            "Link": {
+                "value": "#1783dc",
+                "description": "Action link"
+            },
+            "Link-Active": {
+                "value": "#0e4f84",
+                "description": "Action link active"
+            }
+        },
+        "Stateful": {
+            "Primary-Background": {
+                "value": "#ecf5fd",
+                "description": "Stateful primary background"
+            },
+            "Success": {
+                "value": "#12b0a8",
+                "description": "Stateful success"
+            },
+            "Success-Background": {
+                "value": "#e7f7f6",
+                "description": "Stateful success background"
+            },
+            "Warning": {
+                "value": "#f8ba69",
+                "description": "Stateful warning"
+            },
+            "Danger": {
+                "value": "#c2101a",
+                "description": "Stateful danger or error"
+            },
+            "Danger-Background": {
+                "value": "#fdeced",
+                "description": "Stateful danger background"
+            }
+        },
+        "Modal": {
+            "Primary-Background": {
+                "value": "#16161666",
+                "description": "Modal background"
+            },
+            "Light-Background": {
+                "value": "#ffffff80",
+                "description": "Primary light background"
+            }
+        },
+        "Overlay": {
+            "Primary-Background": {
+                "value": "#16161699",
+                "description": "Overlay background"
+            },
+            "Light-Background": {
+                "value": "#ffffffcc",
+                "description": "Overlay light background"
+            }
+        },
+        "Special": {
+            "Primary-for-app": {
+                "value": "#006599",
+                "description": "Special primary for app"
+            }
+        }
+    }
+}

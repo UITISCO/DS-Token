@@ -1,0 +1,27 @@
+{
+  "name": "ds-token",
+  "version": "1.0.0",
+  "description": "Design Token for TISCO Design system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UITISCO/DS-Token.git"
+  },
+  "keywords": [
+    "Design-system",
+    "Token"
+  ],
+  "author": "CX_Team <terapon@tisco.co.th>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UITISCO/DS-Token/issues"
+  },
+  "homepage": "https://github.com/UITISCO/DS-Token#readme",
+  "dependencies": {
+    "bourbon": "^7.0.0",
+    "csstyle": "^2.0.2"
+  }
+}

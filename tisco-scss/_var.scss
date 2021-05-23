@@ -1,0 +1,246 @@
+//Set for root-id for BEM
+$csstyle-root-id: 'tisco-asset';
+
+//For Images Path
+$asset-path: '/assets/';
+$image-path: $asset-path+'images/';
+
+//Z-index set Order by Sequence
+$z-indexes: (
+	'outdated-browser',
+	'modal',
+	'site-header',
+	'page-wrapper',
+	'site-footer'
+);
+
+//Color
+$White 				: token('colors.Base.White', $color_token);
+$Black 				: token('colors.Base.Black', $color_token);
+$Text  				: token('colors.Base.Text', $color_token);
+$Primary-brand 		: token('colors.Base.Primary-brand', $color_token);
+$Secondary-brand 	: token('colors.Base.Secondary-brand', $color_token);
+$Muted-Background 	: token('colors.Base.Muted-Background', $color_token);
+$Mute-Color 		: token('colors.Base.Mute-Color', $color_token);
+$Grey-Color 		: token('colors.Base.Grey-Color', $color_token);
+$action-Primary		: $Primary-brand;
+$action-Link		: token('colors.Action.Link', $color_token);
+$hover-Link 		: $Secondary-brand;
+$action-Link-Active	: token('colors.Action.Link-Active', $color_token);
+
+$Stateful-Primary-Background 	:	token('colors.Stateful.Primary-Background', $color_token);
+$Stateful-Success 				:	token('colors.Stateful.Success', $color_token);
+$Stateful-Success-Background 	:	token('colors.Stateful.Success-Background', $color_token);
+$Stateful-Warning 				:	token('colors.Stateful.Warning', $color_token);
+$Stateful-Danger 				:	token('colors.Stateful.Danger', $color_token);
+$Stateful-Danger-Background 	:	token('colors.Stateful.Danger-Background', $color_token);
+
+$dropdown-shadow : token('shadows.Dropshadow.step1', $shadows_token), token('shadows.Dropshadow.step2', $shadows_token);
+$card-shadow : token('shadows.Card-3-dp.step1', $shadows_token), token('shadows.Card-3-dp.step2', $shadows_token), token('shadows.Card-3-dp.step3', $shadows_token);
+$card-shadow-hover : token('shadows.Card-12-dp.step1', $shadows_token), token('shadows.Card-12-dp.step2', $shadows_token), token('shadows.Card-12-dp.step3', $shadows_token);
+
+$global-small-box-shadow: 0 2px 8px rgba(token('colors.shadows.hilight.base', $color_token),0.08) !default;
+$global-medium-box-shadow: $card-shadow !default; //*** User Default Dropshadow ***/
+$global-large-box-shadow: $dropdown-shadow !default;
+$global-xlarge-box-shadow: 0 28px 50px rgba(token('colors.shadows.hilight.base', $color_token),0.16) !default;
+
+$global-link-color: $Primary-brand !default;
+$global-link-hover-color: $hover-Link !default;
+
+$base-selection-background: $Secondary-brand !default;
+
+//Font Family
+$font-fallback: sans-serif, Arial !default;
+$font-family-TISCO-AD: token('fontFamilies.font-tisco-ad', $font_token), $font-fallback;
+$font-family-TISCO-Text: token('fontFamilies.font-tisco-text', $font_token), $font-fallback;
+$global-font-family: $font-family-TISCO-AD !default;
+
+//Font-size
+$fSize--11: token('fontSizes.helperFooterNote', $font_token);
+$fSize--13: token('fontSizes.label', $font_token);
+$fSize--16: token('fontSizes.body', $font_token);
+$fSize--18: token('fontSizes.h4', $font_token);
+$fSize--20: token('fontSizes.h3', $font_token);
+$fSize--24: token('fontSizes.h2', $font_token);
+$fSize--30: token('fontSizes.h1', $font_token);
+$fSize--40: token('fontSizes.displayTitleLarge', $font_token);
+$fSize--48: token('fontSizes.displayTitleAdvert', $font_token);
+$fSize--52: token('fontSizes.displayTitle2XLarge', $font_token);
+
+$base-Line-height-calculator : token('lineHeight.calculator', $font_token);
+
+$global-line-height: $base-Line-height-calculator !default;
+
+$global-font-size: $fSize--16;
+$global-small-font-size: $fSize--13 !default;
+
+$global-large-font-size: $fSize--40 !default;
+$global-xlarge-font-size: $fSize--48 !default;
+$global-2xlarge-font-size: $fSize--52 !default;
+
+$base-h1-font-size-m: $fSize--30 !default;
+$base-h1-font-size: $fSize--24 !default;
+$base-h1-line-height: $base-Line-height-calculator !default;
+
+$base-h2-font-size-m: $fSize--24 !default;
+$base-h2-font-size: $fSize--20 !default;
+$base-h2-line-height: $base-Line-height-calculator !default;
+
+$base-h3-font-size: $fSize--20 !default;
+$base-h3-line-height: $fSize--20 * $base-Line-height-calculator !default;
+
+$base-h4-font-size: $fSize--18 !default;
+$base-h4-line-height: $fSize--18 * $base-Line-height-calculator !default;
+
+$base-h5-font-size: $global-font-size !default;
+$base-h5-line-height: $global-font-size * $base-Line-height-calculator !default;
+
+$base-h6-font-size: $global-small-font-size !default;
+$base-h6-line-height: $global-small-font-size * $base-Line-height-calculator !default;
+
+$heading-small-font-size-m: $fSize--20 !default; //Tablet & Desktop
+$heading-small-font-size: $fSize--18 !default; //Mobile
+$heading-small-line-height: $global-line-height!default;
+
+$heading-medium-font-size-l: $fSize--30 !default; //Desktop
+$heading-medium-font-size-m: $fSize--24 !default; //Tablet
+$heading-medium-font-size: $fSize--20 !default; //Mobile
+$heading-medium-line-height: $global-line-height !default;
+
+$heading-large-font-size-l: $global-large-font-size !default; //Desktop
+$heading-large-font-size-m: $fSize--30 !default; //Tablet
+$heading-large-font-size: $fSize--24 !default; //Mobile
+$heading-large-line-height: $global-line-height !default;
+
+$heading-xlarge-font-size-l: $global-xlarge-font-size !default; //Desktop
+$heading-xlarge-font-size-m: $global-large-font-size !default; //Tablet
+$heading-xlarge-font-size: $fSize--30 !default; //Mobile
+$heading-xlarge-line-height: $global-line-height !default;
+
+$heading-2xlarge-font-size-l: $global-2xlarge-font-size !default; //Desktop
+$heading-2xlarge-font-size-m: $global-xlarge-font-size !default; //Tablet
+$heading-2xlarge-font-size: $global-large-font-size !default; //Mobile
+$heading-2xlarge-line-height: $global-line-height !default;
+
+$global-border-width: 1px !default;
+
+$border-radius-small : token('radius.small',$radius_token);
+$border-radius-medium : token('radius.medium',$radius_token);
+
+$global-small-gutter: token('space.S',$space-token) !default;
+$global-small-margin: token('space.S',$space-token) !default;
+
+$global-gutter: token('space.M',$space-token) !default;
+$global-margin: token('space.M',$space-token) !default;
+
+$global-medium-gutter: token('space.L',$space-token) !default;
+$global-medium-margin: token('space.L',$space-token) !default;
+
+$global-large-gutter: token('space.XL',$space-token) !default;;
+$global-large-margin: token('space.XL',$space-token) !default;;
+
+$global-xlarge-margin: token('space.XXL',$space-token) !default;;
+
+$margin-large-margin: $global-large-margin !default;
+
+$margin-margin: $global-margin !default;
+$margin-small-margin: $global-small-margin !default;
+$margin-medium-margin: $global-medium-margin !default;
+$margin-large-margin-l: $global-large-margin !default;
+$margin-xlarge-margin: $global-large-margin !default;
+$margin-xlarge-margin-l: $global-xlarge-margin !default;
+
+$padding-padding:       $global-gutter !default;
+$padding-padding-l:     $global-gutter !default;
+$padding-small-padding: $global-small-gutter !default;
+$padding-large-padding: $global-large-gutter !default;
+$padding-large-padding-l: token('space.XXL',$space-token) !default;
+
+$container-padding-horizontal: token('space.M',$space-token) !default;
+
+$accordion-item-margin-top: $global-margin !default;
+$accordion-content-margin-top: $global-margin !default;
+$alert-margin-vertical: $global-margin !default;
+
+$global-medium-font-size: $fSize--18 !default; //18px;
+$accordion-title-font-size: $global-medium-font-size !default;
+$accordion-title-line-height: $base-Line-height-calculator !default;
+
+$global-emphasis-color: $Black !default; //Base black
+$accordion-title-color: $global-emphasis-color !default;
+$global-color: $Text !default; //Base text color
+$accordion-title-hover-color: $global-color !default;
+$alert-color: $global-color !default;
+
+$global-inverse-color: $White !default; //Base white
+
+$global-border: $Mute-Color !default;
+$form-focus-border: $action-Link-Active !default;
+
+$inverse-global-color: rgba($global-inverse-color, 0.9) !default;
+$inverse-accordion-title-hover-color: $inverse-global-color !default;
+$inverse-global-emphasis-color: $global-inverse-color !default;
+$inverse-accordion-title-color: $inverse-global-emphasis-color !default;
+$inverse-global-muted-color: rgba($global-inverse-color, 0.5) !default;
+$inverse-article-meta-color: $inverse-global-muted-color !default;
+
+$alert-padding: $global-small-gutter !default;
+$alert-padding-right: $alert-padding + 14px !default;
+$alert-close-top: $alert-padding + 5px !default;
+$alert-close-right: $alert-padding !default;
+
+$global-muted-background: $Muted-Background !default; //Base muted background
+
+$global-primary-background: $Primary-brand !default; //Base primary
+$global-secondary-background: $Secondary-brand !default; //Base secondary
+$global-success-background: $Stateful-Success !default; //Stateful success
+$global-warning-background: $Stateful-Warning !default; //Stateful warning
+$global-danger-background: $Stateful-Danger  !default; //Stateful danger or error
+$global-muted-color: $Grey-Color !default; //Base mute color
+$global-background: $White !default; ////Base white
+
+$danger-border: $Stateful-Danger  !default;
+$form-danger-color: $global-color !default;
+$form-success-color: $global-color !default;
+
+$alert-background: $global-muted-background !default;
+$background-muted-background: $global-muted-background !default;
+$alert-primary-color: $global-primary-background !default;
+$alert-primary-background: $Stateful-Primary-Background !default;
+$alert-success-background: $Stateful-Success-Background  !default;
+$alert-success-color: $global-success-background !default;
+$alert-warning-background: lighten(mix($White, $global-warning-background, 45%), 15%) !default;
+$alert-warning-color: $global-warning-background !default;
+$alert-danger-background: $Stateful-Danger-Background !default;
+$alert-danger-color: $global-danger-background !default;
+
+$navbar-background: $White !default;
+$navbar-nav-item-color: $Primary-brand !default;
+$navbar-nav-item-font-size: $global-font-size !default;
+$navbar-nav-item-font-family: $global-font-family !default;
+$navbar-nav-item-hover-color: $hover-Link !default;
+$navbar-nav-item-onclick-color: $action-Link-Active !default;
+$navbar-nav-item-active-color: $action-Link-Active !default;
+$navbar-nav-item-padding-horizontal: token('space.M',$space-token) !default;
+
+$nav-header-font-size: $fSize--16 !default;
+
+$navbar-dropdown-margin: token('space.M',$space-token) !default;
+$navbar-dropdown-padding: token('space.L',$space-token) !default;
+
+$navbar-dropdown-nav-font-size: $fSize--16 !default;
+$navbar-dropdown-nav-item-color: $action-Primary !default;
+$navbar-dropdown-nav-item-hover-color: $hover-Link !default;
+$navbar-dropdown-nav-item-active-color: $action-Link-Active !default;
+$navbar-dropdown-nav-header-color: $action-Primary !default;
+
+$button-primary-hover-background: $hover-Link !default;
+$button-primary-hover-color: $global-inverse-color !default;
+$button-primary-active-background: $action-Link-Active !default;
+
+$offcanvas-bar-width: 100vw !default;
+$offcanvas-bar-width-m: 50vw !default;
+$offcanvas-bar-background: $Primary-brand;
+
+$inverse-close-color: $inverse-global-color !default;
+$inverse-close-hover-color: $inverse-global-color !default;

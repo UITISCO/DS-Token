@@ -1,0 +1,32 @@
+$shadows_token: deep-map-merge(
+	(
+		'shadows': (
+            'Dropshadow': (
+                'step1' : 0 1px 0 0 rgba(token('colors.shadows.hilight.base', $color_token),0.08),
+                'step2' : 0 12px 24px 0 rgba(token('colors.shadows.hilight.base', $color_token),0.08)
+            ),
+            'Card-3-dp': (
+                'step1' : 0 1px 15px 0 rgba(token('colors.Base.Secondary-brand', $color_token),0.05), 
+                'step2' : 0 3px 3px 0 rgba(token('colors.Base.Primary-brand', $color_token),0.08), 
+                'step3' : 0 3px 9px 0 rgba(token('colors.shadows.hilight.base', $color_token),0.08)
+            ),
+            'Card-3-dp-Gray': (
+                'step1' : 0 1px 15px 0 rgba(token('colors.shadows.hilight.secondary', $color_token),0.10), 
+                'step2' : 0 3px 3px 0 rgba(token('colors.shadows.hilight.third', $color_token),0.20), 
+                'step3' : 0 3px 9px 0 rgba(token('colors.shadows.hilight.fourth', $color_token),0.08)
+            ),
+            'Card-12-dp': (
+                'step1' : 0 1px 15px 0 rgba(token('colors.Base.Secondary-brand', $color_token),0.05), 
+                'step2' : 0 12px 12px 0 rgba(token('colors.Base.Primary-brand', $color_token),0.08), 
+                'step3' : 0 12px 24px 0 rgba(token('colors.shadows.hilight.third', $color_token),0.08)
+            ),
+            'Card-12-dp-Gray': (
+                'step1' : 0 1px 15px 0 rgba(token('colors.shadows.hilight.secondary', $color_token),0.05), 
+                'step2' : 0 12px 12px 0 rgba(token('colors.shadows.hilight.third', $color_token),0.08), 
+                'step3' : 0 12px 24px 0 rgba(token('colors.shadows.hilight.fourth', $color_token),0.08)
+            )            
+        )
+    ),
+    $token,
+    true    
+);        

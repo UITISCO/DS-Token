@@ -1,0 +1,713 @@
+{
+    "fontFamilies": {
+        "font-tisco-ad": "TISCO AD",
+        "font-tisco-text": "TISCO Text"
+    },
+    "lineHeights": {
+        "0": 45,
+        "1": 36,
+        "2": 32,
+        "3": 27,
+        "4": 24,
+        "5": 20,
+        "6": 17,
+        "7": 72,
+        "8": 60,
+        "9": 78
+    },
+    "fontWeights": {
+        "font-tisco-ad-Bold": {
+            "value": "Bold"
+        },
+        "font-tisco-text-Regular": {
+            "value": "Regular"
+        },
+        "font-tisco-ad-Regular": {
+            "value": "Regular"
+        },
+        "font-tisco-ad-Bold-Italic": {
+            "value": "Bold Italic"
+        },
+        "font-tisco-text-Bold": {
+            "value": "Bold"
+        }
+    },
+    "fontSizes": {
+        "0": 11,
+        "1": 13,
+        "2": 16,
+        "3": 18,
+        "4": 20,
+        "5": 24,
+        "6": 30,
+        "7": 40,
+        "8": 48,
+        "9": 52
+    },
+    "letterSpacing": {},
+    "paragraphSpacing": {},
+    "typography": {
+        "01 - Heading ": {
+            " H1": {
+                "fontFamily": "$fontFamilies.font-tisco-ad",
+                "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                "lineHeight": "$lineHeights.0",
+                "fontSize": "$fontSizes.6",
+                "letterSpacing": "$letterSpacing.0",
+                "paragraphSpacing": "$paragraphSpacing.0"
+            },
+            " H2": {
+                "fontFamily": "$fontFamilies.font-tisco-ad",
+                "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                "lineHeight": "$lineHeights.1",
+                "fontSize": "$fontSizes.5",
+                "letterSpacing": "$letterSpacing.0",
+                "paragraphSpacing": "$paragraphSpacing.0"
+            },
+            " H3": {
+                "fontFamily": "$fontFamilies.font-tisco-ad",
+                "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                "lineHeight": "$lineHeights.2",
+                "fontSize": "$fontSizes.4",
+                "letterSpacing": "$letterSpacing.0",
+                "paragraphSpacing": "$paragraphSpacing.0"
+            },
+            " H4": {
+                "fontFamily": "$fontFamilies.font-tisco-ad",
+                "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                "lineHeight": "$lineHeights.3",
+                "fontSize": "$fontSizes.3",
+                "letterSpacing": "$letterSpacing.0",
+                "paragraphSpacing": "$paragraphSpacing.0"
+            },
+            " H5": {
+                "fontFamily": "$fontFamilies.font-tisco-ad",
+                "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                "lineHeight": "$lineHeights.4",
+                "fontSize": "$fontSizes.2",
+                "letterSpacing": "$letterSpacing.0",
+                "paragraphSpacing": "$paragraphSpacing.0"
+            },
+            " H6": {
+                "fontFamily": "$fontFamilies.font-tisco-ad",
+                "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                "lineHeight": "$lineHeights.5",
+                "fontSize": "$fontSizes.1",
+                "letterSpacing": "$letterSpacing.0",
+                "paragraphSpacing": "$paragraphSpacing.0"
+            }
+        },
+        "05 - Body": {
+            "Tisco AD": {
+                "Default": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                    "lineHeight": "$lineHeights.4",
+                    "fontSize": "$fontSizes.2",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "Underline": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                    "lineHeight": "$lineHeights.4",
+                    "fontSize": "$fontSizes.2",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "Bold": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                    "lineHeight": "$lineHeights.4",
+                    "fontSize": "$fontSizes.2",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "Bold Italic": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                    "lineHeight": "$lineHeights.4",
+                    "fontSize": "$fontSizes.2",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "Bold Italic - Underline": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                    "lineHeight": "$lineHeights.4",
+                    "fontSize": "$fontSizes.2",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "Bold - Underline": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                    "lineHeight": "$lineHeights.4",
+                    "fontSize": "$fontSizes.2",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "Default (Regular 16px)": {
+                    "value": {
+                        "fontFamily": "$fontFamilies.font-tisco-ad",
+                        "fontWeight": "$fontWeights.font-tisco-ad-Regular",
+                        "lineHeight": "$lineHeights.4",
+                        "fontSize": "$fontSizes.2",
+                        "letterSpacing": "$letterSpacing.0",
+                        "paragraphSpacing": "$paragraphSpacing.0"
+                    },
+                    "description": "TISCO AD Regular 16px"
+                },
+                "Underline (Regular 16px)": {
+                    "value": {
+                        "fontFamily": "$fontFamilies.font-tisco-ad",
+                        "fontWeight": "$fontWeights.font-tisco-ad-Regular",
+                        "lineHeight": "$lineHeights.4",
+                        "fontSize": "$fontSizes.2",
+                        "letterSpacing": "$letterSpacing.0",
+                        "paragraphSpacing": "$paragraphSpacing.0"
+                    },
+                    "description": "TISCO AD Regular 16px Underline"
+                },
+                "Bold (16px)": {
+                    "value": {
+                        "fontFamily": "$fontFamilies.font-tisco-ad",
+                        "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                        "lineHeight": "$lineHeights.4",
+                        "fontSize": "$fontSizes.2",
+                        "letterSpacing": "$letterSpacing.0",
+                        "paragraphSpacing": "$paragraphSpacing.0"
+                    },
+                    "description": "TISCO AD Bold 16px"
+                },
+                "Bold - Underline (16px)": {
+                    "value": {
+                        "fontFamily": "$fontFamilies.font-tisco-ad",
+                        "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                        "lineHeight": "$lineHeights.4",
+                        "fontSize": "$fontSizes.2",
+                        "letterSpacing": "$letterSpacing.0",
+                        "paragraphSpacing": "$paragraphSpacing.0"
+                    },
+                    "description": "TISCO AD Bold 16px Underline"
+                },
+                "Bold Italic (16px)": {
+                    "value": {
+                        "fontFamily": "$fontFamilies.font-tisco-ad",
+                        "fontWeight": "$fontWeights.font-tisco-ad-Bold-Italic",
+                        "lineHeight": "$lineHeights.4",
+                        "fontSize": "$fontSizes.2",
+                        "letterSpacing": "$letterSpacing.0",
+                        "paragraphSpacing": "$paragraphSpacing.0"
+                    },
+                    "description": "TISCO AD Bold Italic 16px"
+                },
+                "Bold Italic - Underline (16px)": {
+                    "value": {
+                        "fontFamily": "$fontFamilies.font-tisco-ad",
+                        "fontWeight": "$fontWeights.font-tisco-ad-Bold-Italic",
+                        "lineHeight": "$lineHeights.4",
+                        "fontSize": "$fontSizes.2",
+                        "letterSpacing": "$letterSpacing.0",
+                        "paragraphSpacing": "$paragraphSpacing.0"
+                    },
+                    "description": "TISCO AD Bold Italic 16px Underline"
+                }
+            },
+            "TISCO Text for Read": {
+                "Default": {
+                    "fontFamily": "$fontFamilies.font-tisco-text",
+                    "fontWeight": "$fontWeights.font-tisco-text-Regular",
+                    "lineHeight": "$lineHeights.4",
+                    "fontSize": "$fontSizes.2",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "Underline": {
+                    "fontFamily": "$fontFamilies.font-tisco-text",
+                    "fontWeight": "$fontWeights.font-tisco-text-Regular",
+                    "lineHeight": "$lineHeights.4",
+                    "fontSize": "$fontSizes.2",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "Bold": {
+                    "fontFamily": "$fontFamilies.font-tisco-text",
+                    "fontWeight": "$fontWeights.font-tisco-text-Regular",
+                    "lineHeight": "$lineHeights.4",
+                    "fontSize": "$fontSizes.2",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "Bold Underline": {
+                    "fontFamily": "$fontFamilies.font-tisco-text",
+                    "fontWeight": "$fontWeights.font-tisco-text-Regular",
+                    "lineHeight": "$lineHeights.4",
+                    "fontSize": "$fontSizes.2",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "Default (Regular 16px)": {
+                    "value": {
+                        "fontFamily": "$fontFamilies.font-tisco-text",
+                        "fontWeight": "$fontWeights.font-tisco-text-3",
+                        "lineHeight": "$lineHeights.4",
+                        "fontSize": "$fontSizes.2",
+                        "letterSpacing": "$letterSpacing.0",
+                        "paragraphSpacing": "$paragraphSpacing.0"
+                    },
+                    "description": "TISCO Text Regular 16px"
+                },
+                "Underline (Regular 16px)": {
+                    "value": {
+                        "fontFamily": "$fontFamilies.font-tisco-text",
+                        "fontWeight": "$fontWeights.font-tisco-text-3",
+                        "lineHeight": "$lineHeights.4",
+                        "fontSize": "$fontSizes.2",
+                        "letterSpacing": "$letterSpacing.0",
+                        "paragraphSpacing": "$paragraphSpacing.0"
+                    },
+                    "description": "TISCO Text Regular 16px Underline"
+                },
+                "Bold (16px)": {
+                    "value": {
+                        "fontFamily": "$fontFamilies.font-tisco-text",
+                        "fontWeight": "$fontWeights.font-tisco-text-Bold",
+                        "lineHeight": "$lineHeights.4",
+                        "fontSize": "$fontSizes.2",
+                        "letterSpacing": "$letterSpacing.0",
+                        "paragraphSpacing": "$paragraphSpacing.0"
+                    },
+                    "description": "TISCO Text Bold 16px"
+                },
+                "Bold Underline (16px)": {
+                    "value": {
+                        "fontFamily": "$fontFamilies.font-tisco-text",
+                        "fontWeight": "$fontWeights.font-tisco-text-Bold",
+                        "lineHeight": "$lineHeights.4",
+                        "fontSize": "$fontSizes.2",
+                        "letterSpacing": "$letterSpacing.0",
+                        "paragraphSpacing": "$paragraphSpacing.0"
+                    },
+                    "description": "TISCO Text Bold 16px Underline"
+                }
+            }
+        },
+        "06 - Label ": {
+            " Default": {
+                "fontFamily": "$fontFamilies.font-tisco-ad",
+                "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                "lineHeight": "$lineHeights.5",
+                "fontSize": "$fontSizes.1",
+                "letterSpacing": "$letterSpacing.0",
+                "paragraphSpacing": "$paragraphSpacing.0"
+            },
+            " Helper - Optional": {
+                "fontFamily": "$fontFamilies.font-tisco-ad",
+                "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                "lineHeight": "$lineHeights.6",
+                "fontSize": "$fontSizes.0",
+                "letterSpacing": "$letterSpacing.0",
+                "paragraphSpacing": "$paragraphSpacing.0"
+            },
+            " Underline": {
+                "fontFamily": "$fontFamilies.font-tisco-ad",
+                "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                "lineHeight": "$lineHeights.5",
+                "fontSize": "$fontSizes.1",
+                "letterSpacing": "$letterSpacing.0",
+                "paragraphSpacing": "$paragraphSpacing.0"
+            },
+            " Bold": {
+                "fontFamily": "$fontFamilies.font-tisco-ad",
+                "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                "lineHeight": "$lineHeights.5",
+                "fontSize": "$fontSizes.1",
+                "letterSpacing": "$letterSpacing.0",
+                "paragraphSpacing": "$paragraphSpacing.0"
+            },
+            " Bold - Underline": {
+                "fontFamily": "$fontFamilies.font-tisco-ad",
+                "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                "lineHeight": "$lineHeights.5",
+                "fontSize": "$fontSizes.1",
+                "letterSpacing": "$letterSpacing.0",
+                "paragraphSpacing": "$paragraphSpacing.0"
+            },
+            " Bold Italic": {
+                "fontFamily": "$fontFamilies.font-tisco-ad",
+                "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                "lineHeight": "$lineHeights.5",
+                "fontSize": "$fontSizes.1",
+                "letterSpacing": "$letterSpacing.0",
+                "paragraphSpacing": "$paragraphSpacing.0"
+            },
+            " Bold Italic - Underline": {
+                "fontFamily": "$fontFamilies.font-tisco-ad",
+                "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                "lineHeight": "$lineHeights.5",
+                "fontSize": "$fontSizes.1",
+                "letterSpacing": "$letterSpacing.0",
+                "paragraphSpacing": "$paragraphSpacing.0"
+            }
+        },
+        "06 - Label": {
+            "Action - CTA": {
+                "fontFamily": "$fontFamilies.font-tisco-ad",
+                "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                "lineHeight": "$lineHeights.4",
+                "fontSize": "$fontSizes.2",
+                "letterSpacing": "$letterSpacing.0",
+                "paragraphSpacing": "$paragraphSpacing.0"
+            },
+            "Default (Regular 13px)": {
+                "value": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Regular",
+                    "lineHeight": "$lineHeights.5",
+                    "fontSize": "$fontSizes.1",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "description": "TISCO AD Regular 13px"
+            },
+            "Underline (Regular 13px)": {
+                "value": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Regular",
+                    "lineHeight": "$lineHeights.5",
+                    "fontSize": "$fontSizes.1",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "description": "TISCO AD Regular 13px Underline"
+            },
+            "Action - CTA (Regular 16px)": {
+                "value": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Regular",
+                    "lineHeight": "$lineHeights.4",
+                    "fontSize": "$fontSizes.2",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "description": "TISCO AD Regular 16px"
+            },
+            "Helper - Optional (Regular 11px)": {
+                "value": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Regular",
+                    "lineHeight": "$lineHeights.6",
+                    "fontSize": "$fontSizes.0",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "description": "TISCO AD Regular 11px"
+            },
+            "Bold (13px)": {
+                "value": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                    "lineHeight": "$lineHeights.5",
+                    "fontSize": "$fontSizes.1",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "description": "TISCO AD Bold 13px"
+            },
+            "Bold - Underline (13px)": {
+                "value": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                    "lineHeight": "$lineHeights.5",
+                    "fontSize": "$fontSizes.1",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "description": "TISCO AD Bold 13px Underline"
+            },
+            "Bold Italic (13px)": {
+                "value": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Bold-Italic",
+                    "lineHeight": "$lineHeights.5",
+                    "fontSize": "$fontSizes.1",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "description": "TISCO AD Bold 13px Italic"
+            },
+            "Bold Italic - Underline (13px)": {
+                "value": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                    "lineHeight": "$lineHeights.5",
+                    "fontSize": "$fontSizes.1",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "description": "TISCO AD Bold Italic 13px Underline"
+            }
+        },
+        "07 - Footnote ": {
+            " Default": {
+                "fontFamily": "$fontFamilies.font-tisco-ad",
+                "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                "lineHeight": "$lineHeights.6",
+                "fontSize": "$fontSizes.0",
+                "letterSpacing": "$letterSpacing.0",
+                "paragraphSpacing": "$paragraphSpacing.0",
+                "value": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Regular",
+                    "lineHeight": "$lineHeights.6",
+                    "fontSize": "$fontSizes.0",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "description": "$footnote-default"
+            },
+            " Bold": {
+                "fontFamily": "$fontFamilies.font-tisco-ad",
+                "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                "lineHeight": "$lineHeights.6",
+                "fontSize": "$fontSizes.0",
+                "letterSpacing": "$letterSpacing.0",
+                "paragraphSpacing": "$paragraphSpacing.0",
+                "value": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                    "lineHeight": "$lineHeights.6",
+                    "fontSize": "$fontSizes.0",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "description": "$footnote-bold"
+            },
+            " Bold Italic": {
+                "fontFamily": "$fontFamilies.font-tisco-ad",
+                "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                "lineHeight": "$lineHeights.6",
+                "fontSize": "$fontSizes.0",
+                "letterSpacing": "$letterSpacing.0",
+                "paragraphSpacing": "$paragraphSpacing.0",
+                "value": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Bold-Italic",
+                    "lineHeight": "$lineHeights.6",
+                    "fontSize": "$fontSizes.0",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "description": "$footnote-bold-italic"
+            },
+            " Bold - Underline": {
+                "fontFamily": "$fontFamilies.font-tisco-ad",
+                "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                "lineHeight": "$lineHeights.6",
+                "fontSize": "$fontSizes.0",
+                "letterSpacing": "$letterSpacing.0",
+                "paragraphSpacing": "$paragraphSpacing.0",
+                "value": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                    "lineHeight": "$lineHeights.6",
+                    "fontSize": "$fontSizes.0",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "description": "$footnote-bold-underline"
+            },
+            " Bold Italic - Underline": {
+                "fontFamily": "$fontFamilies.font-tisco-ad",
+                "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                "lineHeight": "$lineHeights.6",
+                "fontSize": "$fontSizes.0",
+                "letterSpacing": "$letterSpacing.0",
+                "paragraphSpacing": "$paragraphSpacing.0",
+                "value": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Bold-Italic",
+                    "lineHeight": "$lineHeights.6",
+                    "fontSize": "$fontSizes.0",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "description": "$footnote-bold-italic-underline"
+            }
+        },
+        "07 - Footnote": {
+            "Underline": {
+                "fontFamily": "$fontFamilies.font-tisco-ad",
+                "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                "lineHeight": "$lineHeights.6",
+                "fontSize": "$fontSizes.0",
+                "letterSpacing": "$letterSpacing.0",
+                "paragraphSpacing": "$paragraphSpacing.0",
+                "value": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Regular",
+                    "lineHeight": "$lineHeights.6",
+                    "fontSize": "$fontSizes.0",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "description": "$footnote-underline"
+            }
+        },
+        "08 - Adver or Display Title": {
+            "Advert": {
+                "fontFamily": "$fontFamilies.font-tisco-ad",
+                "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                "lineHeight": "$lineHeights.7",
+                "fontSize": "$fontSizes.8",
+                "letterSpacing": "$letterSpacing.0",
+                "paragraphSpacing": "$paragraphSpacing.0",
+                "value": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Regular",
+                    "lineHeight": "$lineHeights.7",
+                    "fontSize": "$fontSizes.8",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "description": "$display-title-advert "
+            },
+            "Advert Bold": {
+                "fontFamily": "$fontFamilies.font-tisco-ad",
+                "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                "lineHeight": "$lineHeights.7",
+                "fontSize": "$fontSizes.8",
+                "letterSpacing": "$letterSpacing.0",
+                "paragraphSpacing": "$paragraphSpacing.0",
+                "value": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                    "lineHeight": "$lineHeights.7",
+                    "fontSize": "$fontSizes.8",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                }
+            },
+            "Advert Italic": {
+                "fontFamily": "$fontFamilies.font-tisco-ad",
+                "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                "lineHeight": "$lineHeights.7",
+                "fontSize": "$fontSizes.8",
+                "letterSpacing": "$letterSpacing.0",
+                "paragraphSpacing": "$paragraphSpacing.0",
+                "value": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Bold-Italic",
+                    "lineHeight": "$lineHeights.7",
+                    "fontSize": "$fontSizes.8",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "description": "$display_title_advert_italic"
+            },
+            "X-Large": {
+                "fontFamily": "$fontFamilies.font-tisco-ad",
+                "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                "lineHeight": "$lineHeights.8",
+                "fontSize": "$fontSizes.7",
+                "letterSpacing": "$letterSpacing.0",
+                "paragraphSpacing": "$paragraphSpacing.0",
+                "value": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Regular",
+                    "lineHeight": "$lineHeights.8",
+                    "fontSize": "$fontSizes.7",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "description": "$display-title-x-large"
+            },
+            "2X-Large": {
+                "fontFamily": "$fontFamilies.font-tisco-ad",
+                "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                "lineHeight": "$lineHeights.9",
+                "fontSize": "$fontSizes.9",
+                "letterSpacing": "$letterSpacing.0",
+                "paragraphSpacing": "$paragraphSpacing.0",
+                "value": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Regular",
+                    "lineHeight": "$lineHeights.9",
+                    "fontSize": "$fontSizes.9",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "description": "$display_title_2x_large"
+            }
+        },
+        "01 - Heading": {
+            "H1 (Bold 30px)": {
+                "value": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                    "lineHeight": "$lineHeights.0",
+                    "fontSize": "$fontSizes.6",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "description": "Heading 1"
+            },
+            "H2 (Bold 24)": {
+                "value": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                    "lineHeight": "$lineHeights.1",
+                    "fontSize": "$fontSizes.5",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "description": "Heading 2"
+            },
+            "H3 (Bold 20px)": {
+                "value": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                    "lineHeight": "$lineHeights.2",
+                    "fontSize": "$fontSizes.4",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "description": "Heading 3"
+            },
+            "H4 (Bold 18px)": {
+                "value": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                    "lineHeight": "$lineHeights.3",
+                    "fontSize": "$fontSizes.3",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "description": "Heading 4"
+            },
+            "H5 (Bold 16px)": {
+                "value": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                    "lineHeight": "$lineHeights.4",
+                    "fontSize": "$fontSizes.2",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "description": "Heading 5"
+            },
+            "H6 (Bold 13px)": {
+                "value": {
+                    "fontFamily": "$fontFamilies.font-tisco-ad",
+                    "fontWeight": "$fontWeights.font-tisco-ad-Bold",
+                    "lineHeight": "$lineHeights.5",
+                    "fontSize": "$fontSizes.1",
+                    "letterSpacing": "$letterSpacing.0",
+                    "paragraphSpacing": "$paragraphSpacing.0"
+                },
+                "description": "Heading 6"
+            }
+        }
+    }
+}

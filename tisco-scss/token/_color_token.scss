@@ -1,0 +1,50 @@
+$color_token: deep-map-merge(
+	(
+		'colors': (
+			'Base': (
+				'White': #ffffff,
+				'Black': #181818,
+				'Text': #2d2d2d,
+				'Primary-brand': #1369b0,
+				'Secondary-brand': #68b1ee,
+				'Muted-Background': #f4f4f4,
+				'Mute-Color': #dcdcdc,
+				'Grey-Color': #ababab
+			),
+			'Action': (
+				'Primary': #1369b0,
+				'Link': #1783dc,
+				'Link-Active': #0e4f84,
+			),
+			'Stateful': (
+				'Primary-Background': #ecf5fd,
+				'Success': #12b0a8,
+				'Success-Background': #e7f7f6,
+				'Warning': #f8ba69,
+				'Danger': #c2101a,
+				'Danger-Background': #fdeced,
+			),
+			'Modal': (
+				'Primary-Background': #16161666,
+				'Light-Background': #ffffff80,
+			),
+			'Overlay': (
+				'Primary-Background': #16161699,
+				'Light-Background': #ffffffcc,
+			),
+			'Special': (
+				'Primary-for-app': #006599,
+			),
+			'shadows': (
+				'hilight' : (
+					'base' : #323247,
+					'secondary' : #D6D6D6,
+					'third' : #494949,
+					'fourth' : #313131
+				)
+			)				
+		)
+	),
+	$token,
+	true
+);
