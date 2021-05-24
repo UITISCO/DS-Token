@@ -1,7 +1,7 @@
 # DS-Token
 Design Token for TISCO Design system
 
-##Install
+#Install
 ### 1.Set TISCO Token Function for the web
 ``` Bash
 @import 'resources/tisco-scss/helper-functions';
