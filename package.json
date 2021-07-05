@@ -4,7 +4,8 @@
   "description": "Design Token for TISCO Design system",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "color:tokens": "npx json-to-scss tokens/color-space.json tisco-scss/token/_color_token-json.scss --k='sq'",
+    "typo:tokens": "npx json-to-scss tokens/typo.json tisco-scss/token/_typo_token-json.scss --k='sq'"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
   "homepage": "https://github.com/UITISCO/DS-Token#readme",
   "dependencies": {
     "bourbon": "^7.0.0",
-    "csstyle": "^2.0.2"
+    "csstyle": "^2.0.2",
+    "json-to-scss": "^1.6.2"
   }
 }
