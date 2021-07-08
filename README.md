@@ -9,6 +9,46 @@ Design Token for TISCO Design system v2.0
 @import 'ds-token/tisco-scss/token';
 
 ```
-### 2.Add Token in Variable
+### 2. Structure Token
+Token Type | Token Name | Token Properties | Token variable
+------------ | ------------- | ------------- | -------------
+colors | Base | White | $color_token
+
+#### Emaple token
+```
+$color_token: deep-map-merge(
+	(
+		'colors': (
+			'Base': (
+				'White': #ffffff,
+				'Black': #181818,
+				'Text': #2d2d2d,
+				'Primary-brand': #1369b0,
+				'Secondary-brand': #68b1ee,
+				'Muted-Background': #f4f4f4,
+				'Mute-Color': #dcdcdc,
+				'Grey-Color': #ababab
+			)			
+		)
+	),
+	$token,
+	true
+);
+```
+
+### 3. Add token value in scss variable
 ``` Bash
-token('colors.Base.White', $color_token);
+token('colors.Base.White', $color_token); - Color Token
+token('shadows.Dropshadow.step1', $shadows_token); - Shadows Token
+token('fontFamilies.font-tisco-ad', $font_token); - Tisco-AD Font Family Token
+token('fontFamilies.font-tisco-text', $font_token); - Tisco-Text Font Family Token
+token('fontSizes.helperFooterNote', $font_token); - Font size Token
+token('lineHeight.calculator', $font_token); - Line height Token
+token('radius.small',$radius_token); - Radius Token small and medium
+token('space.S',$space-token); - Spacing Token S M L XL XXL 
+```
+#### Emaple token
+``` Bash
+$White : token('colors.Base.White', $color_token);
+$Black : token('colors.Base.Black', $color_token);
+$Text  : token('colors.Base.Text', $color_token);
