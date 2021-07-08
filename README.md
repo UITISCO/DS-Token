@@ -8,6 +8,7 @@ Design Token for TISCO Design system v2.0
 @import 'ds-token/tisco-scss/core-functions';
 @import 'ds-token/tisco-scss/token';
 
+```
 ### 2.Add Token in Variable
 ``` Bash
 token('colors.Base.White', $color_token);
