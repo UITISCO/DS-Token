@@ -1,25 +1,25 @@
 // TISCO-regular
-@include font-face( "TISCO", $font-path+"tisco-webfont/tisco-regular", ("woff2", "woff") ) {
+@include font-face( "TISCO", "#{$font-path}tisco-webfont/tisco-regular", ("woff2", "woff") ) {
   font-style: normal;
   font-weight: normal;
 }
 // TISCO-bold
-@include font-face( "TISCO", $font-path+"tisco-webfont/tisco-bold", ("woff2", "woff") ) { 
+@include font-face( "TISCO", "#{$font-path}tisco-webfont/tisco-bold", ("woff2", "woff") ) { 
   font-style: normal; 
   font-weight: 700; 
 }
 // TISCO-bolditalic
-@include font-face( "TISCO", $font-path+"tisco-webfont/tisco-bolditalic", ("woff2", "woff") ) {
+@include font-face( "TISCO", "#{$font-path}tisco-webfont/tisco-bolditalic", ("woff2", "woff") ) {
   font-style: italic;
   font-weight: 700;
 }
 // TISCO-text
-@include font-face( "TISCO-text", $font-path+"tisco-webfont/tiscotext-regular", ("woff2", "woff") ) {
+@include font-face( "TISCO-text", "#{$font-path}tisco-webfont/tiscotext-regular", ("woff2", "woff") ) {
   font-style: normal;
   font-weight: normal;
 }
 // TISCO-text-bold
-@include font-face( "TISCO-text", $font-path+"tisco-webfont/tiscotext-bold", ("woff2", "woff") ) {
+@include font-face( "TISCO-text", "#{$font-path}tisco-webfont/tiscotext-bold", ("woff2", "woff") ) {
   font-style: normal;
   font-weight: 700;
 }
