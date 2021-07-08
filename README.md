@@ -2,14 +2,20 @@
 Design Token for TISCO Design system v2.0
 
 ## Install
-### 1.Set TISCO Token Function for the web
+### 1. Install dependencies
+``` Bash
+From within the terminal cd your project folder.
+run npm i ds-token --save to install the dependencies.
+
+```
+### 2. Import TISCO DS Token in project
 ``` Bash
 @import 'ds-token/tisco-scss/helper-functions';
 @import 'ds-token/tisco-scss/core-functions';
 @import 'ds-token/tisco-scss/token';
 
 ```
-### 2. Structure Token
+### 3. Structure Token
 Token Type | Token Name | Token Properties | Token variable
 ------------ | ------------- | ------------- | -------------
 colors | Base | White | $color_token
@@ -36,7 +42,7 @@ $color_token: deep-map-merge(
 );
 ```
 
-### 3. Add token value in scss variable
+### 4. Add token value in scss variable
 ``` Bash
 token('colors.Base.White', $color_token); - Color Token
 token('shadows.Dropshadow.step1', $shadows_token); - Shadows Token
