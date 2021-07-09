@@ -1,6 +1,6 @@
 {
   "name": "ds-token",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "description": "Design Token for TISCO Design system",
   "main": "index.js",
   "scripts": {
