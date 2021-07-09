@@ -14,12 +14,12 @@
   font-weight: 700;
 }
 // TISCO-text
-@include font-face( "TISCO-text", "#{$font-path}tisco-webfont/tiscotext-regular", ("woff2", "woff") ) {
+@include font-face( "TISCO-Text", "#{$font-path}tisco-webfont/tiscotext-regular", ("woff2", "woff") ) {
   font-style: normal;
   font-weight: normal;
 }
 // TISCO-text-bold
-@include font-face( "TISCO-text", "#{$font-path}tisco-webfont/tiscotext-bold", ("woff2", "woff") ) {
+@include font-face( "TISCO-Text", "#{$font-path}tisco-webfont/tiscotext-bold", ("woff2", "woff") ) {
   font-style: normal;
   font-weight: 700;
 }
