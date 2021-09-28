@@ -20,7 +20,7 @@ Token Type | Token Name | Token Properties | Token variable
 ------------ | ------------- | ------------- | -------------
 colors | Base | White | $color_token
 
-#### Emaple token
+#### Example token
 ```
 $color_token: deep-map-merge(
 	(
@@ -33,7 +33,8 @@ $color_token: deep-map-merge(
 				'Secondary-brand': #68b1ee,
 				'Muted-Background': #f4f4f4,
 				'Mute-Color': #dcdcdc,
-				'Grey-Color': #ababab
+				'Grey-Color': #ababab,
+				'Dark-Grey-Color': #575F6E,				
 			)			
 		)
 	),
