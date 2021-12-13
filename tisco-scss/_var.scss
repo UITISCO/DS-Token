@@ -24,6 +24,7 @@ $Secondary-brand 	: token('colors.Base.Secondary-brand', $color_token);
 $Muted-Background 	: token('colors.Base.Muted-Background', $color_token);
 $Mute-Color 		: token('colors.Base.Mute-Color', $color_token);
 $Grey-Color 		: token('colors.Base.Grey-Color', $color_token);
+$Dark-Grey-Color 	: token('colors.Base.Dark-Grey-Color', $color_token);
 $action-Primary		: $Primary-brand;
 $action-Link		: token('colors.Action.Link', $color_token);
 $hover-Link 		: $Secondary-brand;
